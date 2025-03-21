@@ -1,0 +1,884 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" href="img/logo.png" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+      integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Dancing+Script&family=Inter:wght@500;600;700&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Titillium+Web&display=swap"
+      rel="stylesheet"
+    />
+   
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
+    <link rel="stylesheet" href="css/style.css" />
+    
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&family=Inter:wght@500;600;700&family=Titillium+Web&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.css"
+    />
+
+    <link rel="stylesheet" href="css/media.css" />
+    <title>CL-BS5</title>
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick-theme.min.css"
+    />
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.css"
+    />
+  </head>
+  <body>
+    
+    <!--navbar section-->
+    <section class="top-bg-img">
+      <nav
+        class="navbar navbar-expand-xl fixes-top navbar-toggle nav-bg bg-opacity-75"
+      >
+
+     
+      <div class="container">
+         
+          
+          <a href="index.html" class="navbar-brand text-dark"
+            ><span class="fw-semibold fs-2 me-4 dancing-script">Cakeland</span>
+          
+            <img
+              src="img/mix /logo.png"
+              alt="cakeland logo"
+              width="
+      100"
+          /></a>
+      
+      </div>
+    
+          <button
+            class="navbar-toggler pe-3"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarNavDropdown"
+          >
+          <div class="container">
+            <div class="row">
+              <div class="col-md-12">
+      
+            
+            <span class="navbar-toggler-icon"></span>
+          </button>
+        </div>
+      </div>
+     </div>
+          <div class="collapse navbar-collapse " id="navbarNavDropdown">
+            <ul class="navbar-nav ms-auto ">
+              <li class="nav-item me-4 d-flex align-items-center">
+                <a href="#home" class="nav-link fs-4 active ms-3"
+                  >Home</a
+                >
+              </li>
+              <li class="nav-item me-4 d-flex align-items-center">
+                <a href="#flavours" class="nav-link fs-4 ms-3"
+                  >Flavours</a
+                >
+              </li>
+              <li class="nav-item me-4 d-flex align-items-center">
+                <a
+                  href="#photos"
+                  class="nav-link fs-4 text-secondary ms-3"
+                  >Gallery</a
+                >
+              </li>
+              <li class="nav-item me-4 d-flex align-items-center">
+                <a
+                  href="#price"
+                  class="nav-link fs-4 text-secondary ms-3"
+                  >PriceGuide</a
+                >
+              </li>
+              <li class="nav-item me-4 d-flex align-items-center">
+                <a href="#testimonials" class="nav-link fs-4 ms-3"
+                  >Testimonials</a
+                >
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+      <!-- Modal -->
+<div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h1 class="modal-title fs-5" id="exampleModalLabel">Contact details</h1>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        <p>
+          <i class="fas fa-home mr-3"></i> 26 Chestnut Grove,
+          Bridgemount <br />
+          Carrigaline, Co.Cork
+        </p>
+        <p>
+          <i class="fas fa-envelope mr-3"></i>
+          cakelandbyanitavenczel@gmail.com
+        </p>
+        <p><i class="fas fa-phone mr-3"></i> + 353 087 063 1225</p>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+       
+      </div>
+    </div>
+  </div>
+</div>
+</section>
+<!--menu section under logo-->
+<div class="container-fluid menu-line d-flex align-items-center">
+ 
+  <span type="button" class="text-light fs-5 me-3 py-2" data-bs-toggle="modal" data-bs-target="#exampleModal">
+    Contact
+  </span>
+  <span class="fa-stack">
+    <a href="https://www.facebook.com/cakelandbyanitavenczel" target="_blank" class="">
+      <i class="fas fa-circle fa-stack-2x bg-social-icon  ms-2 "></i>
+      <i class="fab fa-facebook-f fa-stack-1x text-white ms-2"></i>
+    </a>
+  </span>
+</span>
+
+<span class="nav-item me-3">
+  <span class="fa-stack">
+    <a href="https://www.instagram.com/cakelandbyanitavenczel/" target="_blank">
+      <i class="fas fa-circle fa-stack-2x bg-social-icon ms-2"></i>
+      <i class="fab fa-instagram fa-stack-1x text-white ms-2" ></i>
+    </a>
+  </span>
+</span>
+ </div>
+
+
+      <!--header-->
+      <div class="container-fluid top-bg-img"">
+        <div class="row hero-sm-screen">
+          <div class="col col-xs-12 mt-5 d-flex flex-column">
+            <h1 class="text-hero mb-5 text-center">
+              10 years in cake business, <br />delight in every bites
+            </h1>
+
+            <p class="text-center fs-5">
+              Choose your own cake for any occasion! <br />Choose your cake
+              size, shape, cream, sponge type, <br />Filling, toppings, strand
+              options and customised message.
+            </p>
+            <div class="container-fluid text-center">
+           
+            </div>
+          </div>
+          <div class="col col-xs-12 pinguin-img">
+            <img
+              src="img/mix /cake-01.jpg"
+              alt="cake-4"
+              class="img-fliud img-hero py-5 rounded pinguin"
+            />
+          </div>
+        </div>
+      </div>
+   
+    <!--flavour section-->
+    <section
+      class="flavours-section container-fluid d-flex justify-content-center mt-4 flavour"
+    >
+      <!--cake flavours-->
+      <div class="container-fluid flex justyfy-content-center">
+        <div class="container-fluid center-section-title">
+          <h3 class="text-sm-start text-center p-4 fw-semibold fs-2 " id="flavours">FLAVOURS</h3>
+        </div>
+
+        <div class="container">
+          <div class="row">
+            <div class="container">
+              <div class="row">
+                <div class="col-lg-6 col-md-12 col-sm-12 col-xs-12">
+                  <div class="d-flex justify-content-center">
+                    <div class="container d-flex ">
+                      <div class="row">
+                      <div class="col flavours-img ">
+                        <img
+                          src="img/mix /cake-4.webp"
+                          class="w-100 shadow-1-strong rounded"
+                        />
+                      </div>
+                      <div class="col flavours-img "><img
+                        src="img/mix /cake-7.webp"
+                        class="w-100 shadow-1-strong rounded "
+                      />
+                    </div>
+                    <div class="col flavours-img "><img
+                      src="img/mix /cake-squareslice.jpeg"
+                      class="w-100 shadow-1-strong rounded"
+                    />
+                  </div>
+                </div>
+              </div>
+              </div>
+              <div class="container">
+                <h3 class="text-continer text-center py-3">
+                  <i class="fa-solid fa-cake-candles me-2"></i>Cakes
+                </h3>
+              </div>
+              <div class="container add-border">
+                <h5 class="fs-5">Vanilla</h5>
+                <p class="border-bottom">
+                  Light vanilla sponge can filled with vanilla buttercream and
+                  jam
+                </p>
+                <h5 class="fs-5">Chocolate Fudge</h5>
+                <p class="border-bottom">
+                  Rich and moist chocolate cake filled with Belgian chocolate
+                  buttercream
+                </p>
+                <h5 class="fs-5">Red velvet</h5>
+                <p class="border-bottom">
+                  A smooth, scarlet coloured layer cake with a hint of
+                  cocoa,filled with vanilla buttercream or cream cheese
+                </p>
+                <h5 class="fs-5">Lemon drizzle</h5>
+                <p class="border-bottom">
+                  A zingy and moist lemon cake fillet with lemon curd and
+                  vanilla buttercream or ceram cheese
+                </p>
+                <h5 class="fs-5">Oreo Cream cheese</h5>
+                <p class="border-bottom">
+                  Chocolate sponge filled with Orea cheese
+                </p>
+                <h5 class="fs-5">Srawberry cream cheese</h5>
+                <p class="border-bottom">
+                  A light vanilla sponge filled with strawberry jam and
+                  starwberry cream cheese
+                </p>
+                <h5 class="fs-5">Chocolate ganache</h5>
+                <p class="border-bottom">
+                  Light cocoa sponge filled with Belgian milk chocolate ganache
+                </p>
+                <h5 class="fs-5">White chocolate raspberry</h5>
+                <p class="border-bottom">
+                  Light vanilla sponge filled with raspberry jam and white
+                  chocolate cream
+                </p>
+                <h5 class="fs-5">Black forest gateau</h5>
+                <p class="border-bottom">
+                  Chocolate sponge filled with cherry filling and freshly
+                  whipped white chocolate crream
+                </p>
+                <h5 class="fs-5">Coffee</h5>
+                <p class="border-bottom">
+                  Rich coffee soaked cake filled with coffee buttercream
+                </p>
+                <h5 class="fs-5">Salted caramel</h5>
+                <p class="border-bottom">
+                  Vanilla sponge filled with salted caramel sauce and salted
+                  caramel butter cream
+                </p>
+                <h5 class="fs-5">
+                  Belgian chocolate biscuit cake milk or white
+                </h5>
+                <p class="">
+                  Optional fillings are marshmallows, Maltesers, Lolos, etc.
+                </p>
+              </div>
+            </div>
+           
+            <div class="col-lg-6 col-md-12 col-sm-12 col-xs-12 cupcake-flavours">
+              <div class="d-flex justify-content-center">
+                <div class="container d-flex ">
+                  <div class="row">
+                  <div class="col flavours-img ">
+                    <img
+                      src="img/mix /three-cup-1.jpeg"
+                      class="w-100 shadow-1-strong rounded "
+                    />
+                  </div>
+                  <div class="col flavours-img "><img
+                    src="img/mix /three-cup-2.JPG"
+                    class="w-100 shadow-1-strong rounded "
+                  />
+                </div>
+                <div class="col flavours-img "><img
+                  src="img/mix /three-cup-3.jpg"
+                  class="w-100 shadow-1-strong rounded"
+                />
+              </div>
+            </div>
+          </div>
+              </div>
+              <div class="container">
+                <h3 class="text-continer text-center py-3">Cupcakes</h3>
+              </div>
+              <h5 class="fs-5">Vanilla</h5>
+              <p class="border-bottom">
+                Light vanilla sponge can filled with vanilla buttercream and jam
+              </p>
+              <h5 class="fs-5">Chocolate</h5>
+              <p class="border-bottom">
+                Chocolate cupcake with Belgian chocolate ganache
+              </p>
+              <h5 class="fs-5">Lemon</h5>
+              <p class="border-bottom">
+                Vanilla cupcake filled with lemon drizzle and cream cheese
+              </p>
+              <h5 class="fs-5">Strawberry</h5>
+              <p class="border-bottom">
+                Vanilla cupcake filled with strawberry jam and strawberry cream
+                cheese icing
+              </p>
+              <h5 class="fs-5">Raspberry</h5>
+              <p class="border-bottom">
+                Vanilla cupcake filled with raspberry jam and raspberry cream
+                cheese icing
+              </p>
+              <h5 class="fs-5">Vanilla</h5>
+              <p class="border-bottom">
+                Light vanilla sponge can filled with vanilla buttercream and jam
+              </p>
+              <h5 class="fs-5">Oreo</h5>
+              <p class="border-bottom">
+                Chocolate cupcake with Oreo biscuit and Oreo cream cheese
+              </p>
+              <h5 class="fs-5">Salted caramel</h5>
+              <p class="border-bottom">
+                Vanilla cupcake with salted caramel filling and salted caramel
+                buttercream on top
+              </p>
+              <h5 class="fs-5">Red velvet</h5>
+              <p class="border-bottom">
+                Red velvet cupcake with cream cheese icing
+              </p>
+              <h5 class="fs-5">Coffee</h5>
+              <p class="border-bottom">
+                Vanilla cupcake with cream cheese icing
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Gallerys-->
+    <section class="gallery-main mt-4 mx-3">
+      <div class="container-fluid">
+        <h3 class="text-sm-start text-center p-4 fw-semibold fs-2" id="photos">Gallery</h3>
+      </div>
+
+      <div class="row">
+        <div class="col-lg-4 col-md-12 mb-4 mb-lg-0 gallery-item ">
+        
+          <img
+            src="img/mix /face-img-1 2.jpg"
+            class="w-100 shadow-1-strong rounded mb-4 "
+            alt="number-1"
+          />
+
+          <img
+            src="img/mix /face-cukepop-3 2.jpg"
+            class="w-100 shadow-1-strong rounded mb-4"
+            alt="number-2"
+          />
+        
+        </div>
+
+       
+
+        <div class="col-lg-4 mb-4 mb-lg-0 gallery-item ">
+
+          <img
+            src="img/mix /insts-img-1.jpg"
+            class="w-100 shadow-1-strong rounded mb-4 "
+            alt="number-3"
+          />
+       
+        
+          <img
+            src="img/mix /face-cake-4 2.jpg"
+            class="w-100 shadow-1-strong rounded mb-4"
+            alt="number-4"
+          />
+        
+        </div>
+
+        <div class="col-lg-4 mb-4 mb-lg-0 gallery-item ">
+       
+          <img
+            src="img/mix /face-cake-9 2.jpg"
+            class="w-100 shadow-1-strong rounded mb-4"
+            alt="number-5"
+          />
+         
+          <img
+            src="img/mix /face-cupcake-7 2.jpg"
+            class="w-100 shadow-1-strong rounded mb-4"
+            alt="number-6"
+          />
+         
+        </div>
+      </div>
+    </section>
+    <!-- Gallery -->
+<div class="container-fluid">
+  <div class="row">
+    <div class="col d-flex justify-content-start">
+      <a href="gallery.html" class="link-underline link-underline-opacity-0 text-secondary">More gallery &rarr;</a>
+    </div>
+  </div>
+</div>
+<!--size guide-->
+<div class="container-fluid">
+  <h3 class="text-sm-start text-center p-4 fw-semibold fs-2" id="price">Price Guide</h3>
+</div>
+<div class="container ">
+<div class="row d-flex justify-content-center">
+  <p class="text-center fs-5">All cakes are individually priced based on size and design. Nost cakes are 4-5" tall and 4 layesr.</p>
+  <p class="text-center fs-5"> As a guide prices starting at €75 for 6", €85 for 8", €95 for 10" </p>
+  <p class="text-center fs-5">Cupcakes are from €30 for 12 with swirl and sprinkles, from €38 with personalised decoration</p>
+  <p class="text-center fs-5">Cakepops are from €25 for 10</p>
+</div>
+<div class="text-center">
+  <img src="img/mix /sizeguide-img.avif" class="img-fluid" alt="...">
+</div>
+</div>
+
+    <!--testimonials carousel-->
+    <div class="container-fluid bg-testimonials mt-4">
+      <h3 class="text-sm-start text-center mb-0 p-4 fw-semibold fs-2" id="testimonials">TESTIMONIALS</h3>
+    </div>
+    <div class="container-fluid bg-testimonials d-flex justify-content-center">
+      <img class="testimonials_logo" src="img/mix /logo.jpg" />
+    </div>
+    
+   
+    <div class="container-fluid bg-testimonials mb-4">
+    <div id="carouselExampleAutoplaying" class="carousel slide" data-bs-ride="carousel">
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <span>
+            <p class="text-center">
+              Anita made the most beautiful cake for my daughter's 3rd birthday.
+              The detail was impeccable and it was the most delicious chocolate
+              cake! An incredible talent, that was a pleasure to deal with! x
+            </p>
+            <br />
+  
+            <p class="text-center"> - Elaine O'Riordan - </p>
+          </span>
+        </div>
+        <div class="carousel-item">
+          <span>
+            <p class="text-center">
+              Anita’s creativity and attention to detail makes every cake a
+            fantastic centrepiece for any celebration. But the best thing is
+            that her cakes taste every bit as good as they look.
+            </p>
+           <br>
+            <p class="text-center"> - Ethna Kenny -</p>
+          </span>
+        </div>
+        <div class="carousel-item">
+          <span>
+            <p class="text-center">
+              Anita made the most amazing cake for our little girl's birthday. The
+            design and decorations were incredible! We felt so guilty cutting it
+            because it was so beautiful! And it tasted as divine as it looked.
+            Anita was so accommodating and an absolute pleasure to deal with.
+            Thanks so much Anita for making our little one’s day even more
+            special.
+            </p>
+            <br />
+  
+            <p class="text-center"> - Anne Smith - </p>
+          </span>
+        </div>
+        <div class="carousel-item">
+          <span>
+            <p class="text-center">
+              Anita is a fantastic baker . Her cakes are so fresh and well made.
+            I've never been left disappointed by her cakes . I can highly
+            recommend her to anyone looking for cakes for any occasion.
+            </p>
+            <br />
+  
+            <p class="text-center"> - Nicole Bulman -</p>
+          </span>
+        </div>
+        <div class="carousel-item">
+          <span>
+            <p class="text-center">
+              Got my son's 1st birthday cake today . it was so well done !! and by
+              far the nicest tasting cake I've had in a long time ... we were so
+              happy with it !! Thanks again ! Would definitely recommend. X
+            </p>
+            <br />
+  
+            <p class="text-center"> 
+              - Gertie O’Leary Collin - </p>
+          </span>
+        </div>
+        <div class="carousel-item">
+          <span>
+            <p class="text-center">
+              Thank you so much for the most beautiful birthday cake. From start
+            to finish best customer service and I'll be back for more for sure.
+            Extremely highly recommended.
+            </p>
+            <br />
+  
+            <p class="text-center"> 
+              - Robin Sibbs - </p>
+          </span>
+        </div>
+        <div class="carousel-item">
+          <span>
+            <p class="text-center">
+              Anita Thank You so much for the amazing cake you did for Lily's
+              communion,the details on it were just incredible And it tastes
+              Amazing,we just Love it,Lily was so excited when she saw it,you have
+              such a fantastic talent,Thanks again xx
+            </p>
+            <br />
+  
+            <p class="text-center"> 
+              - Ciara Jackson -</p>
+          </span>
+        </div>
+        <div class="carousel-item">
+          <span>
+            <p class="text-center">
+              We use anita for all our family occasions.all of her cakes have been
+              works of art.and they all have tasted as amazing as they look
+            </p>
+            <br />
+  
+            <p class="text-center"> 
+              - Marguerite Murphy - </p>
+          </span>
+        </div>
+        <div class="carousel-item">
+          <span>
+            <p class="text-center">
+              I can't thank Anita enough for her creative cake she made for my
+            baby girl naming ceremony. All the guests were raving over it so
+            tasty. We also got beautiful cupcakes and again Anita outdone
+            herself with the designs on them so much effort went into them which
+            took so much skill.
+            </p>
+            <br />
+  
+            <p class="text-center"> 
+              
+          - Susan Mulvey - </p>
+          </span>
+        </div>
+      </div>
+      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+  </div>
+       <!--test-->
+
+    <!-- carousel-->
+<section class="bottom-img container-fluid">
+    <div
+      id="carouselExampleInterval"
+      class="carousel slide"
+      data-mdb-ride="carousel"
+      data-mdb-carousel-init
+    >
+      <div class="carousel-inner">
+        <div class="carousel-item active" data-mdb-interval="100">
+          <img
+            src="img/mix /inst-img-4 2.jpg"
+            class="d-block w-100"
+            alt="Wild Landscape"
+          />
+        </div>
+        <div class="carousel-item" data-mdb-interval="100">
+          <img
+            src="img/cake-01.jpg"
+            class="d-block w-100"
+            alt="Camera"
+          />
+        </div>
+        <div class="carousel-item">
+          <img
+            src="img/cake-10.jpg"
+            class="d-block w-100"
+            alt="Exotic Fruits"
+          />
+        </div>
+      </div>
+      <button
+        class="carousel-control-prev"
+        data-mdb-target="#carouselExampleInterval"
+        type="button"
+        data-mdb-slide="prev"
+      >
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button
+        class="carousel-control-next"
+        data-mdb-target="#carouselExampleInterval"
+        type="button"
+        data-mdb-slide="next"
+      >
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+  </section>
+    <!--footer section -->
+    <section class="footer">
+      <!-- Remove the container if you want to extend the Footer to full width. -->
+      <div class="container-fluid footer">
+        <!-- Footer -->
+        <footer
+          class="text-center text-lg-start text-white"
+          style="background-color: #bab991"
+        >
+          <!-- Grid container -->
+          <div class="container pb-0">
+            <!-- Section: Links -->
+            <section class="">
+              <!--Grid row-->
+              <div class="row">
+                <!-- Grid column -->
+                <div class="col-md-3 col-lg-3 col-xl-3 mx-auto mt-5">
+                  <h6
+                    class="mb-4 font-weight-bold fs-5 dancing-script text-white"
+                  >
+                    Cakeland
+                  </h6>
+               
+                </div>
+                <!-- Grid column -->
+
+                <hr class="w-100 clearfix d-md-none" />
+
+                <!-- Grid column -->
+                <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mt-5">
+                  <h6 class="text-uppercase mb-4 font-weight-bold">Products</h6>
+                  <p>
+                    <a class="text-white text-decoration-none"
+                      >Cakes</a
+                    >
+                  </p>
+                  <p>
+                    <a class="text-white text-decoration-none">Cupcakes</a>
+                  </p>
+                  <p>
+                    <a class="text-white text-decoration-none">Cakepops</a>
+                  </p>
+                  <p>
+                    <a class="text-white text-decoration-none"></a>
+                  </p>
+                </div>
+                <!-- Grid column -->
+
+                <hr class="w-100 clearfix d-md-none" />
+
+                <!-- Grid column -->
+                <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mt-5">
+                  <h6 class="text-uppercase mb-4 font-weight-bold">
+                    Useful links
+                  </h6>
+                  <p>
+                    <a class="text-white text-decoration-none" href="#flavours">Flavours</a>
+                  </p>
+                  <p>
+                    <a class="text-white text-decoration-none" href="#photos">Gallery</a>
+                  </p>
+                  <p>
+                    <a class="text-white text-decoration-none" href="#testimonials"
+                      >Testimonials</a
+                    >
+                  </p>
+                  <p>
+                    <a class="text-white text-decoration-none" href="#price">Price Guide</a>
+                  </p>
+                </div>
+
+                <!-- Grid column -->
+                <hr class="w-100 clearfix d-md-none" />
+
+                <!-- Grid column -->
+                <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mt-5">
+                  <h6 class="text-uppercase mb-4 font-weight-bold">Contact</h6>
+                  <p>
+                    <i class="fas fa-home mr-3"></i> <a target="_blank" href="https://maps.app.goo.gl/SY7XR6FkijBRcCLY9" class="link-underline link-underline-opacity-0 text-light"> 26 Chestnut Grove,
+                    Bridgemount <br />
+                    Carrigaline, Co.Cork</a> 
+                  </p>
+                  <p>
+                    <i class="fas fa-envelope mr-3"></i>
+                    <a href="mailto: cakelandbyanitavenczel@gmail.com" class="link-underline link-underline-opacity-0 text-light"> cakelandbyanitavenczel@gmail.com</a>
+                  </p>
+                  <p><i class="fas fa-phone mr-3"></i> <a href="tel:+3530870631225" class="link-underline link-underline-opacity-0 text-light"> + 353 087 063 1225</a></p>
+                </div>
+                <!-- Grid column -->
+              </div>
+              <!--Grid row-->
+            </section>
+            <!-- Section: Links -->
+
+            <hr class="my-3" />
+
+            <!-- Section: Copyright -->
+            <section class="p-3 pt-0">
+              <div class="row d-flex align-items-center">
+                <!-- Grid column -->
+                <div class="col-md-7 col-lg-8 text-center text-md-start">
+                  <!-- Copyright -->
+                  <div class="p-3">© 2024 Copyright: Cakeland</div>
+                  <!-- Copyright -->
+                </div>
+                <!-- Grid column -->
+
+                <!-- Grid column -->
+                <div class="col-md-5 col-lg-4 ml-lg-0 text-center text-md-end">
+                  <!-- Facebook -->
+                  <a
+                  href="https://www.facebook.com/cakelandbyanitavenczel" target="_blank" 
+                    class="btn btn-outline-light btn-floating m-1"
+                    class="text-white"
+                    role="button"
+                    ><i class="fab fa-facebook-f"></i
+                  ></a>
+
+                  <!-- Instagram -->
+                  <a
+                  href="https://www.instagram.com/cakelandbyanitavenczel/" target="_blank"
+                    class="btn btn-outline-light btn-floating m-1"
+                    class="text-white"
+                    role="button"
+                    ><i class="fab fa-instagram"></i
+                  ></a>
+                </div>
+                <!-- Grid column -->
+              </div>
+            </section>
+            <!-- Section: Copyright -->
+          </div>
+          <!-- Grid container -->
+        </footer>
+        <!-- Footer -->
+      </div>
+      <!-- End of .container -->
+    </section>
+    <!--pop out image -->
+    <script>
+      const galleryItems = document.querySelectorAll(".gallery-item img");
+const lightbox = document.getElementById("lightbox");
+const lightboxImage = document.querySelector(".lightbox-image");
+const closeBtn = document.querySelector(".lightbox .close");
+const prevBtn = document.querySelector(".lightbox .prev");
+const nextBtn = document.querySelector(".lightbox .next");
+
+let currentIndex = 0;
+
+// Open lightbox
+galleryItems.forEach((item, index) => {
+  item.addEventListener("click", () => {
+    currentIndex = index;
+    showImage();
+    lightbox.style.display = "flex";
+  });
+});
+
+// Show image in lightbox
+function showImage() {
+  lightboxImage.src = galleryItems[currentIndex].src;
+}
+
+// Close lightbox
+closeBtn.addEventListener("click", () => {
+  lightbox.style.display = "none";
+});
+
+// Navigate to previous image
+prevBtn.addEventListener("click", () => {
+  currentIndex = (currentIndex - 1 + galleryItems.length) % galleryItems.length;
+  showImage();
+});
+
+// Navigate to next image
+nextBtn.addEventListener("click", () => {
+  currentIndex = (currentIndex + 1) % galleryItems.length;
+  showImage();
+});
+
+// Close lightbox on outside click
+lightbox.addEventListener("click", (e) => {
+  if (e.target === lightbox) {
+    lightbox.style.display = "none";
+  }
+});
+    </script>
+    <!--scrol up button-->
+    <button id="scrollBtn" onclick="scrollToTop()">&uarr;</button>
+    <script>
+      const scrollBtn = document.getElementById('scrollBtn');
+  
+      // Show button when user scrolls down 200px
+      window.addEventListener('scroll', () => {
+        if (window.scrollY > 200) {
+          scrollBtn.style.display = 'block';
+        } else {
+          scrollBtn.style.display = 'none';
+        }
+      });
+  
+      // Scroll smoothly to the top
+      function scrollToTop() {
+        window.scrollTo({
+          top: 0,
+          behavior: 'smooth'
+        });
+      }
+    </script>
+    <script
+      src="https://code.jquery.com/jquery-3.6.4.min.js"
+      integrity="sha256-oP6HI9z1XaZNBrJURtCoUT5SUnxFr8s3BzRl+cbzUq8="
+      crossorigin="anonymous"
+    ></script>
+    <script
+      type="text/javascript"
+      src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js"
+    ></script>
+
+
+    <script src="js/script.js"></script>
+    <script src="js/gallery.js"></script>
+    <script src="js/bootstrap.bundle.min.js"></script>
+  </body>
+</html>
