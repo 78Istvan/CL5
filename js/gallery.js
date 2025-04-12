@@ -75,3 +75,6 @@ document.documentElement.scrollTop = 0;
 import { Carousel, initMDB } from "mdb-ui-kit";
 
 initMDB({ Carousel });
+
+
+//test galley
